@@ -1,4 +1,4 @@
-FROM openjdk:26-oraclelinux8
+FROM openjdk:17
 
 RUN useradd -ms /bin/bash appuser
 
