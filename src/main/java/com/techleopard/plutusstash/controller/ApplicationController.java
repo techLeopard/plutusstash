@@ -22,4 +22,9 @@ public class ApplicationController {
         return "login";
     }
 
+    @GetMapping("/to-do-list")
+    public String toDoList() {
+        return "to-do-list";
+    }
+
 }
